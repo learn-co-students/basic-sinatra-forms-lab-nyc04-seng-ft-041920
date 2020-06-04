@@ -5,6 +5,37 @@
   <title>Basketball Team Signup</title>
  </head>
  <body>
+    <form method="POST" action="/team">
+        <%# Team name ('name')  %>
+        <label>Team Name: <input type="text" name="name" /></label>
+        <br>
+
+        <%# Coach ('coach')  %>
+        <label>Coach: <input type="text" name="coach" /></label>
+        <br>
+
+        <%# Point Guard ('pg')  %>
+        <label>Point Guard: <input type="text" name="pg" /></label>
+        <br>
+
+        <%# Shooting Guard ('sg')  %>
+        <label>Shooting Guard: <input type="text" name="sg" /></label>
+        <br>
+
+        <%# Power Forward ('pf')  %>
+        <label>Power Forward: <input type="text" name="pf" /></label>
+        <br>
+
+        <%# Small Forward ('sf')  %>
+        <label>Small Forward: <input type="text" name="sf" /></label>
+        <br>
+
+        <%# Center ('c') %>
+        <label>Center: <input type="text" name="c" /></label>
+        <br>
+        
+        <input type="submit" id="Submit"/>
+    </form>
  </body>
 </html>
 
